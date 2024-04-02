@@ -39,5 +39,5 @@
 <asp:Label ID="lbThongbao" runat="server"></asp:Label>
 
    <asp:SqlDataSource ID="dsloai" runat="server" ConnectionString="<%$ ConnectionStrings:HoaTuoiDBConnectionString %>" SelectCommand="SELECT * FROM [Loai]"></asp:SqlDataSource>
-
+    <asp:Button ID="Button1" runat="server" Text="Button" />
 </asp:Content>
